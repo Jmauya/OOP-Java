@@ -1,7 +1,7 @@
 
 import java.util.Arrays;                                                                // Import Arrays utility class
 
-public class SortArray {                                                          //Define the class (no space allowed in name)
+public class SortArray {                                                         //Define the class (no space allowed in name)
     
     public static void main(String[] args) {                                                                  // Main method
         
