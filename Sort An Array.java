@@ -1,5 +1,5 @@
 
- import java.util.Arrays;      // Import Arrays utility class
+ import java.util.Arrays;       // Import Arrays utility class
 
 public class SortArray {   //Define the class (no space allowed in name)
     
