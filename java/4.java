@@ -15,7 +15,8 @@ class NobelForPhysicsLaureatesRevisited {
         
         System.out.println(nobelLaureates[0] + " won in " + years[0]);
         System.out.println(nobelLaureates[1] + " won in " + years[1]);
-        // Print the last record
+        
+      // Print the last record
         System.out.println(nobelLaureates[2] + " won in " + years[2]);
     }
 }
