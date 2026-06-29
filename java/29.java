@@ -12,6 +12,7 @@ void isValidUsername_returnsFalse_whenShortUsername() {
     void isValidUsername_returnsFalse_whenNull() {
     String username = null;
     // Pass the username to isValidUsername 
+    
     boolean actual = UsernameValidator.isValidUsername(username);
     // Verify the username is invalid
     assertFalse(actual);
