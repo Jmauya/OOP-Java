@@ -4,11 +4,13 @@ public class StringCache {
     private final Map<String, CacheEntry> cache = new HashMap<>();
     
     public String get(String key) {
+        
         // Get the entry for the specified key
         CacheEntry entry = cache.get(key);
         if (entry == null) return null;
 
         // Update its access time
+        
         entry.updateAccessTime();
         return entry.value;
     }
