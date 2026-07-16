@@ -1,4 +1,5 @@
 public class StringCache {
+    
     private final int capacity = 100;
     private final Map<String, CacheEntry> cache = new HashMap<>();
     
