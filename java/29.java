@@ -2,6 +2,7 @@
 void isValidUsername_returnsFalse_whenShortUsername() {
     
     // Enter a username that is too short
+    
     String username = "ab";
     boolean actual = UsernameValidator.isValidUsername(username);
     assertFalse(actual);
