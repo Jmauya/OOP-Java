@@ -4,10 +4,13 @@ public class GroceryDataTransformation {
 
         StringColumn names = inventory.stringColumn("Product_Name");
         StringColumn standardizedNames =
+            
             // Map product names through cleaning operations
             names.map
                 // Remove parentheses
+            
                 t -> t.replaceAll("\\(.*\\)", "")
+            
                       // Remove surrounding space
                       .trim()
                       // Convert to lowercase
